@@ -1,0 +1,10 @@
+<ion-view view-title="Processes">
+  <ion-content>
+
+    <ion-list>
+      <ion-item ng-repeat="playlist in playlists" href="#/app/playlists/{{playlist.title}}">
+        {{playlist.title}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

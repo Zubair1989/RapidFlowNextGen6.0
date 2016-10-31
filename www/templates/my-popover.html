@@ -1,0 +1,12 @@
+﻿<ion-popover-view>
+    <ion-header-bar> 
+    <h1 class="title">Process lookups</h1> 
+    </ion-header-bar> 
+    <ion-content>
+        <ion-list>
+            <ion-item ng-repeat="lookup in Lookups" ng-click="gotolookup(lookup.title)">
+                {{lookup.title}}
+            </ion-item>
+        </ion-list> 
+    </ion-content>
+</ion-popover-view>
